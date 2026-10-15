@@ -1,0 +1,9 @@
+**/.env
+**/.env.*
+!**/.env.example
+**/__pycache__/
+.DS_Store
+docker/supabase/volumes/db/data/
+docker/supabase/volumes/storage/
+docker/supabase/volumes/snippets/*
+!docker/supabase/volumes/snippets/.gitkeep
